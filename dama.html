@@ -1,0 +1,29 @@
+<html>
+<head>
+    <link rel="stylesheet" href="estilo.css" type="text/css"/>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="montarTabuleiro.js"></script>
+</head>
+<body>
+  <div class="center">
+    <label>
+    Nome jogador Pedra Cinza: &nbsp;&nbsp;&nbsp;<input type="text" id="jogador1" value=""><br/>
+    </label>
+    <label>
+    Nome jogador Pedra Azul: <input type="text" id="jogador2" value="">
+    </label>
+  </div>
+    <div id="tabuleiro">
+    </div>
+    <div id="info">
+
+      <ul>
+          <li id="blc">Jogador Bola Cinza: <span id="info_pontos_pretas"></span></li>
+          <li id="bla">Jogador Bola Azul: <span id="info_pontos_brancas"></span></li>
+
+          <!--<li>Casa selecionada: <span id="info_casa_selecionada"></span></li>-->
+          <li>Peça selecionada: <span id="info_peca_selecionada"></span></li>
+      </ul>
+    </div>
+</body>
+</html>
